@@ -104,12 +104,8 @@ MediBuddy is a real-time web application built with modern tools focused on acce
 - Storage: Cloud Storage for prescription images and PDFs
 
 ### Database Structure
+<img width="633" height="186" alt="image" src="https://github.com/user-attachments/assets/e9f4598d-b485-4341-b167-54a90f106e2b" />
 
-users/{uid}/
-├── medications/          # User's medication list
-├── medicationLogs/       # Daily adherence tracking
-└── prescriptions/        # Uploaded prescription metadata
-medicationExplanations/     # Cached AI-generated explanations
 
 MediBuddy combines official drug data with AI to create simple explanations:
 
