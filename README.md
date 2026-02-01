@@ -103,7 +103,10 @@ MediBuddy is a real-time web application built with modern tools focused on acce
 - Database: Cloud Firestore (NoSQL) for real-time data sync
 - Storage: Cloud Storage for prescription images and PDFs
 - 
-<img width="459" height="117" alt="image" src="https://github.com/user-attachments/assets/44c0a77e-3d7b-4d0c-9f90-768c8ea41f9c" />
+
+<img width="392" height="101" alt="image" src="https://github.com/user-attachments/assets/cf90111e-3ca6-4d23-afae-5247c5c587dd" />
+
+
 
 
 
