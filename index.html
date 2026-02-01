@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediBuddy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              softBlue: '#E6F5F3', // Updated to match top of gradient
+              gentleGreen: '#4CAF50',
+              warmGray: '#424242',
+              alertRed: '#D32F2F',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            spacing: {
+              '18': '4.5rem', // 72px
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background: linear-gradient(to bottom, #E6F5F3, #F2FAF9, #FFFFFF);
+        background-attachment: fixed;
+        color: #424242;
+      }
+      /* Ensure text is always readable */
+      input, button, p, h1, h2, h3, h4, h5, h6, label {
+        letter-spacing: 0.01em;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^18.2.0/",
+    "react/": "https://esm.sh/react@^18.2.0/",
+    "react": "https://esm.sh/react@^18.2.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.263.1",
+    "firebase/app": "https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js",
+    "firebase/auth": "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js",
+    "firebase/firestore": "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js",
+    "firebase/storage": "https://www.gstatic.com/firebasejs/10.8.0/firebase-storage-compat.js",
+    "firebase/functions": "https://www.gstatic.com/firebasejs/10.8.0/firebase-functions-compat.js",
+    "firebase/": "https://esm.sh/firebase@^12.8.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
