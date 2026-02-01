@@ -102,9 +102,9 @@ MediBuddy is a real-time web application built with modern tools focused on acce
 - Authentication: Email/password with verification required
 - Database: Cloud Firestore (NoSQL) for real-time data sync
 - Storage: Cloud Storage for prescription images and PDFs
+- 
+<img width="459" height="117" alt="image" src="https://github.com/user-attachments/assets/44c0a77e-3d7b-4d0c-9f90-768c8ea41f9c" />
 
-### Database Structure
-<img width="633" height="186" alt="image" src="https://github.com/user-attachments/assets/e9f4598d-b485-4341-b167-54a90f106e2b" />
 
 
 MediBuddy combines official drug data with AI to create simple explanations:
