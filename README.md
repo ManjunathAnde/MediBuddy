@@ -17,13 +17,13 @@ You're at the counter. The line is long. The pharmacist is rushing.
 You nod. You leave. But did you catch everything? What if you forget tomorrow?
 For someone managing 5, 7, or 10 different medications—this becomes impossible.
 
---The Effort
+--The Effort 🔨
 MediBuddy is the pharmacist who's always available.
 
 When your real pharmacist is too busy, when you're confused at 2 AM, when you can't remember if you took your evening dose—MediBuddy is there.
 
 
--- Key Features
+-- Key Features 🗝️
 
 1. Never Miss a Dose
 - Clear medication schedule with custom times
@@ -55,7 +55,7 @@ Your pharmacist can update your medications directly:
 - One app for all your medication needs
 
 
--- Built For
+-- Built For⛑️
 Users managing chronic conditions:
 - Diabetes patients tracking multiple medications
 - Heart disease patients with complex regimens
@@ -63,7 +63,7 @@ Users managing chronic conditions:
 - Caregivers managing medications for loved ones
 
 
---Why This Matters
+--Why This Matters❓
 
 MediBuddy helps prevent:
 - Missed doses leading to complications
@@ -72,7 +72,7 @@ MediBuddy helps prevent:
 - Confusion about what medications do
 
 
--- How It Works
+-- How It Works❔
 
 1. Your pharmacist sets you up → Medications, dosages, and quantities added (You can do it too!)
 2. You get reminders → Clear schedule, easy to follow
@@ -80,7 +80,7 @@ MediBuddy helps prevent:
 4. Get alerts → Low stock warnings before you run out
 5. Learn about your meds → Simple AI explanations anytime
 
--- The Result
+-- The Result🏆
 
 Peace of mind for patients. Peace of mind for families.
 
@@ -88,11 +88,11 @@ No more pill organizers. No more confusion. No more dangerous mistakes.
 
 Just your medications, managed properly.
 
---Technical Stack
+--Technical Stack💻
 
 MediBuddy is a real-time web application built with modern tools focused on accessibility and reliability for elderly users.
 
--- Frontend
+-- Frontend 🟦
 - React 18 with TypeScript for type safety and reliability
 - Tailwind CSS for responsive, accessible design
 - Browser-native ES modules for fast loading
@@ -102,15 +102,9 @@ MediBuddy is a real-time web application built with modern tools focused on acce
 - Authentication: Email/password with verification required
 - Database: Cloud Firestore (NoSQL) for real-time data sync
 - Storage: Cloud Storage for prescription images and PDFs
+
 - 
-
-<img width="392" height="101" alt="image" src="https://github.com/user-attachments/assets/cf90111e-3ca6-4d23-afae-5247c5c587dd" />
-
-
-
-
-
-MediBuddy combines official drug data with AI to create simple explanations:
+MediBuddy combines official drug data with AI to create simple explanations through RAG
 
 1. Fetch drug info from FDA OpenFDA API (official government data)
 2. Send to Gemini AI for translation
