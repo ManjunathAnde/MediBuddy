@@ -5,7 +5,7 @@ import "firebase/compat/storage";
 import "firebase/compat/functions";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC3f6XFjpoC0s_fSzY9IsN-fsL6n8_FOQA",
+  apiKey: "YOUR_API_KEY",
   authDomain: "medibuddy-61fd2.firebaseapp.com",
   projectId: "medibuddy-61fd2",
   storageBucket: "medibuddy-61fd2.firebasestorage.app",
